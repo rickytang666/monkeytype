@@ -450,6 +450,7 @@ export const LanguageSchema = z.enum(
     "code_6502_assembly",
     "english_legal",
     "sindhi",
+    "technolect_1k",
   ],
   {
     errorMap: customEnumErrorHandler("Must be a supported language"),
